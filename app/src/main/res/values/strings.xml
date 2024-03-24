@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Conversion</string>
+    <string name="conversion_de_monnaie">Conversionn de Monnaie</string>
+    <string name="Euro"><![CDATA[Euro->Dinar Tunisien]]></string>
+    <string name="Dinar"><![CDATA[Dinar Tunisien->Euro]]></string>
+    <string name="button">Convertir</string>
+</resources>
