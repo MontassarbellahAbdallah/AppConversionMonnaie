@@ -92,14 +92,14 @@
                                 android:layout_height="match_parent">
 
                                 <RadioButton
-                                    android:id="@+id/radioButton2"
+                                    android:id="@+id/eTd"
                                     android:layout_width="match_parent"
                                     android:layout_height="0dp"
                                     android:layout_weight="1"
                                     android:text="@string/Euro" />
 
                                 <RadioButton
-                                    android:id="@+id/radioButton"
+                                    android:id="@+id/dTe"
                                     android:layout_width="match_parent"
                                     android:layout_height="0dp"
                                     android:layout_weight="1"
@@ -118,6 +118,7 @@
 
                     <Button
                         android:id="@+id/button"
+                        android:onClick = "convertir"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
@@ -132,12 +133,12 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/textView4"
+                        android:id="@+id/result"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:text="TextView" />
+                        android:text="@string/result" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

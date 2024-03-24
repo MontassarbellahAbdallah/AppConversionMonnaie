@@ -4,4 +4,6 @@
     <string name="Euro"><![CDATA[Euro->Dinar Tunisien]]></string>
     <string name="Dinar"><![CDATA[Dinar Tunisien->Euro]]></string>
     <string name="button">Convertir</string>
+    <string name="auClic">Convertir</string>
+    <string name="result">result</string>
 </resources>
